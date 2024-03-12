@@ -3,7 +3,7 @@ spring:
   # DataSource Config
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://106.54.51.160:3306/mydatabase
+    url: "jdbc:mysql://172.17.0.1:3306/mydatabase?useSSL=false"
     username: meng
     password: 12345678
   # session 失效时间
